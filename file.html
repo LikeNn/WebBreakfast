@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завтрак</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script src="js/file.js"></script>
+</head>
+<body>
+    <header>
+      <div class="logo">
+        <img src="img/logo1.png" alt="logo">
+      </div>
+      <div class="b-popup" id="popup1">
+        <div class="b-popup-content">
+          <form action="" class="order">
+            <div class="form-row">
+            <label for="name">Ваше имя</label><input type="text" id="name" required>
+            </div>
+            <div class="form-row">
+            <label for="email">Ваш Email</label><input type="email" id="email" required>
+            </div>
+            <div class="form-row">
+            <label for="message">Ваш заказ</label><textarea rows="3" id="message" required></textarea>
+            </div>
+            <div class="form-row">
+            <input type="submit" value="Отправить сообщение">
+            </div>
+            </form>
+        <a href="javascript:PopUpHide()">Закрыть</a>
+        </div>
+    </div>
+            <nav>
+                <a href="#Home">ГЛАВНАЯ</a>
+                <a href="#about">О НАС</a>
+                <a href="#">МЕНЮ</a>
+                <a href="#suggentions">ПРЕДЛОЖЕНИЯ</a>
+                <a href="#gallery">ГАЛЕРЕЯ</a>
+                <a href="#contacts">КОНТАКТЫ</a>
+                <a href="javascript:PopUpShow()">ЗАКАЗ</a>
+            </nav>
+<div class="header__about" id="Home">
+    <img src="img/1-remove.png" alt="fruits">
+    <div class="header__text">
+        <h1>СВЯЖИТЕСЬ С НАМИ<br>ДЛЯ ЛУЧШЕГО ЗАВТРАКА</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Commodi et similique sint provident cumque labore,<br> illo rem obcaecati earum impedit, nulla minima dolorem.<br> Est enim perferendis beatae deleniti nisi in.</p>
+        <div class="header__btn">
+            <input type="button" value="Связаться">
+        </div>
+    
+    </div>
+</div>
+
+    </header>
+
+    <div class="section__about" id="about">
+        <img src="img/about.jpg" alt="about">
+        <div class="about__info">
+            <h1>О нас</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae modi facilis harum. Temporibus pariatur dignissimos adipisci amet consequatur excepturi laboriosam quibusdam repellat labore id fugit, quaerat nesciunt praesentium corrupti.</p>
+        </div>
+    </div>
+
+<div class="section__gallery" id="gallery">
+    <h1>Наша Галерея</h1>
+<div class="gallery">
+    <a target="_blank" href="img/item-1.jpg">
+      <img src="img/item-1.jpg" alt="" width="400" height="300">
+    </a>
+    <div class="desc"></div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img/item-2.jpg">
+      <img src="img/item-2.jpg" alt="" width="400" height="300">
+    </a>
+    <div class="desc"></div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img/item-5.jpg">
+      <img src="img/item-5.jpg" alt="" width="400" height="300">
+    </a>
+    <div class="desc"></div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="img/item-3.jpg">
+      <img src="img/item-3.jpg" alt="" width="400" height="300">
+    </a>
+    <div class="desc"></div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="img/item-4.jpg">
+      <img src="img/item-4.jpg" alt="" width="400" height="300">
+    </a>
+    <div class="desc"></div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="img/about.jpg">
+      <img src="img/about.jpg" alt="" width="400" height="300">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="section__suggestions" id="suggentions">
+  <h1>Предложения</h1>
+  <div class="suggestions__items">
+    <div class="item__1">
+      <img src="img/suggestion/1.jpg" alt="1">
+      <h2>Индийский чай с лавандой и мятой</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illum quibusdam tempora! Accusantium perferendis totam consequatur molestias ullam alias inventore? Delectus fuga necessitatibus dolor tempora omnis cum deserunt expedita laudantium?</p>
+      <h5>Цена: 30uah</h5>
+    </div>
+    <div class="item__1">
+      <img src="img/suggestion/2.jpg" alt="1">
+      <h2>Шакшука</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illum quibusdam tempora! Accusantium perferendis totam consequatur molestias ullam alias inventore? Delectus fuga necessitatibus dolor tempora omnis cum deserunt expedita laudantium?</p>
+      <h5>Цена: 58uah</h5>
+    </div>
+    <div class="item__1">
+      <img src="img/suggestion/3.jpg" alt="1">
+      <h2>Сырники с малиной</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illum quibusdam tempora! Accusantium perferendis totam consequatur molestias ullam alias inventore? Delectus fuga necessitatibus dolor tempora omnis cum deserunt expedita laudantium?</p>
+      <h5>Цена: 42uah</h5>
+    </div>
+  </div>
+</div>
+
+<a href="#" title="Вернуться к началу страницы" class="topNubex">Вверх</a>
+
+  <footer>
+        <div class="social" id="contacts">
+            <a href="https://ru-ru.facebook.com/"><img src="img/footer/facebook.png" alt="facebook"></a>
+            <a href="https://twitter.com/?lang=ru"><img src="img/footer/twitter.png" alt="twitter"></a>
+            <a href="https://www.google.com.ua/?hl=ru"><img src="img/footer/google.png" alt="google"></a>
+            <p> Copyright©2021 Завтрак Inc. All rights reserved. </p>
+            <a href="#telephone" class="telephone"> +380660000000</a>
+        </div>
+</footer>
+
+
+</body>
+</html>
